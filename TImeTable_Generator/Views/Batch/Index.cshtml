@@ -1,0 +1,55 @@
+﻿@model TImeTable_Generator.Models.BatchRoutine
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Batch</title>
+    @*<link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>*@
+
+    @*<link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />*@
+    <link href="@Url.Content("~/Content/Input-Design/css/Style.css")" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <div class="shade">
+        <div class="blackboard">
+            <div class="form">
+                <p>
+                    <label>Name: </label>
+                    <input type="text" />
+                </p>
+                <p>
+                    <label>Email: </label>
+                    <input type="text" />
+                </p>
+                <p>
+                    <label>Phone: </label>
+                    <input type="tel" />
+                </p>
+                <p>
+                    <label>Subject: </label>
+                    <input type="text" />
+                </p>
+                <p>
+                    <label>Message: </label>
+                    <textarea></textarea>
+                </p>
+                <p class="wipeout">
+                    <input type="submit" value="Send" />
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>

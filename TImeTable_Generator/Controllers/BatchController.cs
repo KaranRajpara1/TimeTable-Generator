@@ -6,27 +6,27 @@ using System.Web.Mvc;
 
 namespace TImeTable_Generator.Controllers
 {
-    public class Login_SignUpController : Controller
+    public class BatchController : Controller
     {
-        // GET: Login_SignUp
+        // GET: Batch
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: Login_SignUp/Details/5
+        // GET: Batch/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Login_SignUp/Create
+        // GET: Batch/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Login_SignUp/Create
+        // POST: Batch/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -42,13 +42,13 @@ namespace TImeTable_Generator.Controllers
             }
         }
 
-        // GET: Login_SignUp/Edit/5
+        // GET: Batch/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Login_SignUp/Edit/5
+        // POST: Batch/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -64,13 +64,13 @@ namespace TImeTable_Generator.Controllers
             }
         }
 
-        // GET: Login_SignUp/Delete/5
+        // GET: Batch/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Login_SignUp/Delete/5
+        // POST: Batch/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
@@ -84,13 +84,6 @@ namespace TImeTable_Generator.Controllers
             {
                 return View();
             }
-        }
-
-        [HttpPost]
-        public ActionResult SignUp()
-        {
-
-            return RedirectToAction("Index");
         }
     }
 }
